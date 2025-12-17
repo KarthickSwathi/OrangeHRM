@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="30">
+
+	<!-- ===== Dynamic Execution Log File Name ===== -->
+	<Properties>
+		<Property name="logPath">logs</Property>
+
+		<!-- Generate: Execution_dd_MM_yyyy_hh_mm_a.log -->
+		<Property name="executionLog">
+			Execution_${date:dd_MM_yyyy_hh_mm_a}.log
+		</Property>
+	</Properties>
+
+	<Appenders>
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss} %-5p [%c{1}] - %m%n" />
+		</Console>
+		<!-- ========== MAIN EXECUTION LOG FILE ========== -->
+		<RollingFile name="ExecutionFile"
+			fileName="${logPath}/${executionLog}"
+			filePattern="${logPath}/archive/${executionLog}-%d{yyyy-MM-dd}-%i.log.gz">
+
+			<PatternLayout
+				pattern="[%d{HH:mm:ss.SSS}] [%level] %msg%n" />
+
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+
+		</RollingFile>
+		<RollingFile name="HeaderFile"
+			fileName="${logPath}/${executionLog}"
+			filePattern="${logPath}/archive/${executionLog}-%d{yyyy-MM-dd}-%i.log.gz">
+
+			<!-- RAW layout: only the message is printed -->
+			<PatternLayout pattern="%msg%n" />
+
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+		</RollingFile>
+
+
+	</Appenders>
+
+	<Loggers>
+		<Logger name="HeaderLogger" level="info" additivity="false">
+			<AppenderRef ref="HeaderFile" />
+			<AppenderRef ref="Console" />
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="ExecutionFile" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+
+</Configuration>

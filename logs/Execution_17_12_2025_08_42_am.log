@@ -1,0 +1,52 @@
+
+--------  verify_login_with_valid_data  --------
+
+[08:42:12.275] [INFO] CHROME is launched
+[08:42:13.361] [INFO] Browser is maximised
+[08:42:24.241] [INFO] Navigated to https://opensource-demo.orangehrmlive.com/
+[08:42:25.258] [INFO] Implicit wait set to 5 seconds
+[08:42:26.311] [INFO] Locator used : xpath=//H5[.='Login']
+[08:42:26.355] [INFO] Login text is displayed
+[08:42:27.399] [INFO] Locator used : xpath=//INPUT[normalize-space(@placeholder)='Username']
+[08:42:27.578] [INFO] Entered Admin into Username textfield
+[08:42:28.633] [INFO] Locator used : xpath=//INPUT[normalize-space(@placeholder)='Password']
+[08:42:28.807] [INFO] Entered admin123 into Password textfield
+[08:42:29.869] [INFO] Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+[08:42:31.339] [INFO] clicked on Login button
+[08:42:32.388] [INFO] Locator used : xpath=//H6[.='Dashboard']
+[08:42:32.423] [INFO] Dashboard text is displayed
+[08:42:33.757] [INFO] Browser is closed
+
+--------  verify_login_with_invalid_data  --------
+
+[08:42:35.777] [INFO] CHROME is launched
+[08:42:36.836] [INFO] Browser is maximised
+[08:42:45.933] [INFO] Navigated to https://opensource-demo.orangehrmlive.com/
+[08:42:46.951] [INFO] Implicit wait set to 5 seconds
+[08:42:48.005] [INFO] Locator used : xpath=//H5[.='Login']
+[08:42:48.056] [INFO] Login text is displayed
+[08:42:49.099] [INFO] Locator used : xpath=//INPUT[normalize-space(@placeholder)='Username']
+[08:42:49.257] [INFO] Entered Admin into Username textfield
+[08:42:50.299] [INFO] Locator used : xpath=//INPUT[normalize-space(@placeholder)='Password']
+[08:42:50.424] [INFO] Entered admin into Password textfield
+[08:42:51.470] [INFO] Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+[08:42:51.635] [INFO] clicked on Login button
+[08:42:53.343] [INFO] Locator used : xpath=//P[.='Invalid credentials']
+[08:42:53.372] [INFO] Invalid credentials text is displayed
+[08:42:54.736] [INFO] Browser is closed
+
+--------  verify_login_without_data  --------
+
+[08:42:56.764] [INFO] CHROME is launched
+[08:42:57.816] [INFO] Browser is maximised
+[08:43:05.780] [INFO] Navigated to https://opensource-demo.orangehrmlive.com/
+[08:43:06.792] [INFO] Implicit wait set to 5 seconds
+[08:43:07.832] [INFO] Locator used : xpath=//H5[.='Login']
+[08:43:07.864] [INFO] Login text is displayed
+[08:43:08.906] [INFO] Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+[08:43:09.085] [INFO] clicked on Login button
+[08:43:10.118] [INFO] Locator used : xpath=//DIV[DIV[LABEL[.='Username']]]/descendant::SPAN[.='Required']
+[08:43:10.141] [INFO] Username Required text is displayed
+[08:43:11.182] [INFO] Locator used : xpath=//LABEL[.='Password']/following::SPAN[.='Required']
+[08:43:11.204] [INFO] Password Required text is displayed
+[08:43:12.483] [INFO] Browser is closed

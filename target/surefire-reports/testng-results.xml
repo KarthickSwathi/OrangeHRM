@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-17T09:10:35 IST" name="Suite" finished-at="2025-12-17T09:11:44 IST" duration-ms="68975">
+    <groups>
+    </groups>
+    <test started-at="2025-12-17T09:10:35 IST" name="Test" finished-at="2025-12-17T09:11:44 IST" duration-ms="68975">
+      <class name="TestScripts.Module2_Pim">
+        <test-method signature="verify_add_employee_without_credentials()[pri:1, instance:TestScripts.Module2_Pim@39ac0c0a]" started-at="2025-12-17T09:11:26 IST" name="verify_add_employee_without_credentials" finished-at="2025-12-17T09:11:44 IST" duration-ms="17825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_add_employee_without_credentials -->
+      </class> <!-- TestScripts.Module2_Pim -->
+      <class name="TestScripts.Module1_Login">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestScripts.Module1_Login@7e5c856f]" started-at="2025-12-17T09:10:35 IST" name="beforeSuite" finished-at="2025-12-17T09:10:35 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="verify_login_with_valid_data()[pri:1, instance:TestScripts.Module1_Login@7e5c856f]" started-at="2025-12-17T09:10:35 IST" name="verify_login_with_valid_data" finished-at="2025-12-17T09:10:54 IST" duration-ms="19058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_with_valid_data -->
+        <test-method signature="verify_login_with_invalid_data()[pri:2, instance:TestScripts.Module1_Login@7e5c856f]" started-at="2025-12-17T09:10:54 IST" name="verify_login_with_invalid_data" finished-at="2025-12-17T09:11:11 IST" duration-ms="17157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_with_invalid_data -->
+        <test-method signature="verify_login_without_data()[pri:3, instance:TestScripts.Module1_Login@7e5c856f]" started-at="2025-12-17T09:11:11 IST" name="verify_login_without_data" finished-at="2025-12-17T09:11:26 IST" duration-ms="14870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_without_data -->
+      </class> <!-- TestScripts.Module1_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="70.746" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\User\eclipse-workspace\SimplyAutomate_OrangeHRM\target\test-classes;C:\Users\User\eclipse-workspace\SimplyAutomate_OrangeHRM\target\classes;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\User\.m2\repository\io\appium\java-client\9.5.0\java-client-9.5.0.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\User\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\User\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="RegressionSuite.xml"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="EXECUTION_LOG_FILE" value="Execution_17_12_2025_09_10_am.log"/>
+    <property name="sun.boot.library.path" value="C:\Users\User\AppData\Roaming\fire-flink-client\JDK\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire14077661803102641466\surefirebooter-20251217091031211_3.jar C:\Users\User\AppData\Local\Temp\surefire14077661803102641466 2025-12-17T09-10-25_985-jvmRun1 surefire-20251217091031211_1tmp surefire_0-20251217091031211_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\User\eclipse-workspace\SimplyAutomate_OrangeHRM\target\test-classes;C:\Users\User\eclipse-workspace\SimplyAutomate_OrangeHRM\target\classes;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\User\.m2\repository\io\appium\java-client\9.5.0\java-client-9.5.0.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\User\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\User\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Users\User\AppData\Roaming\fire-flink-client\JDK\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\User\eclipse-workspace\SimplyAutomate_OrangeHRM"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire14077661803102641466\surefirebooter-20251217091031211_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+9-adhoc..jdk17u"/>
+    <property name="user.name" value="Karthick"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\User\eclipse-workspace\SimplyAutomate_OrangeHRM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="headless" value="true"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\User\AppData\Roaming\fire-flink-client\JDK\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Eclipse/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin/server;D:/Eclipse/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Android\Sdk\tools\bin;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Erlang OTP\bin;C:\Users\User\node-v20.17.0-win-x64\node-v20.17.0-win-x64;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\dev\flutter\bin;C:\flutter\bin;C:\Program Files\Tesseract-OCR;C:\Users\User\.m2\repository\com\sikulix\sikulixapi\2.0.5;C:\Users\User\Downloads\opencv\build\bin;C:\Program Files\Git\cmd;C:\Users\User\AppData\Roaming\Sikulix\libs;C:\opencv\build\java\x64;C:\opencv\build\x64\vc16\bin;C:\Program Files (x86)\WiX Toolset v3.11\bin;C:\Users\User\maestro\bin;C:\Program Files (x86)\AutoIt3\AutoItLibs;C:\ffmpeg\bin;C:\Maven\apache-maven-3.9.11\bin;C:\Program Files\Microsoft VS Code\bin;C:\Kafka\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Android\Sdk\tools\bin;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Erlang OTP\bin;C:\Users\User\node-v20.17.0-win-x64\node-v20.17.0-win-x64;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\dev\flutter\bin;C:\flutter\bin;C:\Program Files\Tesseract-OCR;C:\Users\User\.m2\repository\com\sikulix\sikulixapi\2.0.5;C:\Users\User\Downloads\opencv\build\bin;C:\Program Files\Git\cmd;C:\Users\User\AppData\Roaming\Sikulix\libs;C:\opencv\build\java\x64;C:\opencv\build\x64\vc16\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;C:\U;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Android\Sdk\tools\bin;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Roaming\fire-flink-client\JDK\jdk-11\bin;C:\Program Files (x86)\WiX Toolset v3.11\bin;C:\Users\User\maestro\bin;C:\Program Files (x86)\AutoIt3\AutoItLibs;C:\ffmpeg\bin;C:\Maven\apache-maven-3.9.11\bin;C:\Kafka\bin;;C:\Users\User\AppData\Local\Programs\Ollama;C:\Users\User\AppData\Roaming\npm;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.11+9-adhoc..jdk17u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verify_login_with_valid_data" classname="TestScripts.Module1_Login" time="19.04">
+    <system-out><![CDATA[09:10:35 INFO  [HeaderLogger] - 
+09:10:35 INFO  [HeaderLogger] - --------  verify_login_with_valid_data  --------
+09:10:35 INFO  [HeaderLogger] - 
+09:10:37 INFO  [WebUtils] - CHROME is launched
+09:10:38 INFO  [WebUtils] - Browser is maximised
+09:10:44 INFO  [WebUtils] - Navigated to https://opensource-demo.orangehrmlive.com/
+09:10:45 INFO  [WebUtils] - Implicit wait set to 5 seconds
+09:10:46 INFO  [WebUtils] - Locator used : xpath=//H5[.='Login']
+09:10:46 INFO  [WebUtils] - Login text is displayed
+09:10:47 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Username']
+09:10:47 INFO  [WebUtils] - Entered Admin into Username textfield
+09:10:48 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Password']
+09:10:48 INFO  [WebUtils] - Entered admin123 into Password textfield
+09:10:49 INFO  [WebUtils] - Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+09:10:49 INFO  [WebUtils] - clicked on Login button
+09:10:51 INFO  [WebUtils] - Locator used : xpath=//H6[.='Dashboard']
+09:10:51 INFO  [WebUtils] - Dashboard text is displayed
+09:10:53 INFO  [WebUtils] - Browser is closed
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 17, 2025 9:10:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+]]></system-err>
+  </testcase>
+  <testcase name="verify_login_with_invalid_data" classname="TestScripts.Module1_Login" time="17.148">
+    <system-out><![CDATA[09:10:54 INFO  [HeaderLogger] - 
+09:10:54 INFO  [HeaderLogger] - --------  verify_login_with_invalid_data  --------
+09:10:54 INFO  [HeaderLogger] - 
+09:10:55 INFO  [WebUtils] - CHROME is launched
+09:10:56 INFO  [WebUtils] - Browser is maximised
+09:11:01 INFO  [WebUtils] - Navigated to https://opensource-demo.orangehrmlive.com/
+09:11:02 INFO  [WebUtils] - Implicit wait set to 5 seconds
+09:11:03 INFO  [WebUtils] - Locator used : xpath=//H5[.='Login']
+09:11:03 INFO  [WebUtils] - Login text is displayed
+09:11:04 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Username']
+09:11:04 INFO  [WebUtils] - Entered Admin into Username textfield
+09:11:06 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Password']
+09:11:06 INFO  [WebUtils] - Entered admin into Password textfield
+09:11:07 INFO  [WebUtils] - Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+09:11:07 INFO  [WebUtils] - clicked on Login button
+09:11:09 INFO  [WebUtils] - Locator used : xpath=//P[.='Invalid credentials']
+09:11:09 INFO  [WebUtils] - Invalid credentials text is displayed
+09:11:10 INFO  [WebUtils] - Browser is closed
+]]></system-out>
+    <system-err><![CDATA[Dec 17, 2025 9:10:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+]]></system-err>
+  </testcase>
+  <testcase name="verify_login_without_data" classname="TestScripts.Module1_Login" time="14.867">
+    <system-out><![CDATA[09:11:11 INFO  [HeaderLogger] - 
+09:11:11 INFO  [HeaderLogger] - --------  verify_login_without_data  --------
+09:11:11 INFO  [HeaderLogger] - 
+09:11:12 INFO  [WebUtils] - CHROME is launched
+09:11:13 INFO  [WebUtils] - Browser is maximised
+09:11:18 INFO  [WebUtils] - Navigated to https://opensource-demo.orangehrmlive.com/
+09:11:19 INFO  [WebUtils] - Implicit wait set to 5 seconds
+09:11:20 INFO  [WebUtils] - Locator used : xpath=//H5[.='Login']
+09:11:20 INFO  [WebUtils] - Login text is displayed
+09:11:21 INFO  [WebUtils] - Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+09:11:21 INFO  [WebUtils] - clicked on Login button
+09:11:22 INFO  [WebUtils] - Locator used : xpath=//DIV[DIV[LABEL[.='Username']]]/descendant::SPAN[.='Required']
+09:11:22 INFO  [WebUtils] - Username Required text is displayed
+09:11:23 INFO  [WebUtils] - Locator used : xpath=//LABEL[.='Password']/following::SPAN[.='Required']
+09:11:23 INFO  [WebUtils] - Password Required text is displayed
+09:11:25 INFO  [WebUtils] - Browser is closed
+]]></system-out>
+    <system-err><![CDATA[Dec 17, 2025 9:11:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+]]></system-err>
+  </testcase>
+  <testcase name="verify_add_employee_without_credentials" classname="TestScripts.Module2_Pim" time="17.822">
+    <system-out><![CDATA[09:11:26 INFO  [HeaderLogger] - 
+09:11:26 INFO  [HeaderLogger] - --------  verify_add_employee_without_credentials  --------
+09:11:26 INFO  [HeaderLogger] - 
+09:11:27 INFO  [WebUtils] - CHROME is launched
+09:11:27 INFO  [WebUtils] - Browser is maximised
+09:11:31 INFO  [WebUtils] - Navigated to https://opensource-demo.orangehrmlive.com/
+09:11:31 INFO  [WebUtils] - Implicit wait set to 5 seconds
+09:11:32 INFO  [WebUtils] - Locator used : xpath=//H5[.='Login']
+09:11:32 INFO  [WebUtils] - Login text is displayed
+09:11:32 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Username']
+09:11:32 INFO  [WebUtils] - Entered Admin into Username textfield
+09:11:32 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Password']
+09:11:32 INFO  [WebUtils] - Entered admin123 into Password textfield
+09:11:32 INFO  [WebUtils] - Locator used : xpath=//BUTTON[normalize-space(.)='Login']
+09:11:32 INFO  [WebUtils] - clicked on Login button
+09:11:34 INFO  [WebUtils] - Locator used : xpath=//H6[.='Dashboard']
+09:11:34 INFO  [WebUtils] - Dashboard text is displayed
+09:11:34 INFO  [WebUtils] - Locator used : xpath=//A[@href='/web/index.php/pim/viewPimModule']
+09:11:36 INFO  [WebUtils] - clicked on PIM link
+09:11:36 INFO  [WebUtils] - Locator used : xpath=//H6[.='PIM']
+09:11:36 INFO  [WebUtils] - PIM text is displayed
+09:11:36 INFO  [WebUtils] - Locator used : xpath=//A[normalize-space(.)='Add Employee']
+09:11:37 INFO  [WebUtils] - clicked on Add Employee link
+09:11:37 INFO  [WebUtils] - Locator used : xpath=//H6[.='Add Employee']
+09:11:37 INFO  [WebUtils] - Add Employee text is displayed
+09:11:37 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='First Name']
+09:11:37 INFO  [WebUtils] - Entered Demo into First Name textfield
+09:11:38 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Middle Name']
+09:11:38 INFO  [WebUtils] - Entered Test into Middle Name textfield
+09:11:38 INFO  [WebUtils] - Locator used : xpath=//INPUT[normalize-space(@placeholder)='Last Name']
+09:11:38 INFO  [WebUtils] - Entered User into Last Name textfield
+09:11:38 INFO  [WebUtils] - Locator used : xpath=//DIV[contains(@class,'oxd-input-group oxd-input-field-bottom-space')]/descendant-or-self::INPUT[@class='oxd-input oxd-input--active']
+09:11:38 INFO  [WebUtils] - Entered 1234 into EmployeeID textfield
+09:11:38 INFO  [WebUtils] - Locator used : xpath=//BUTTON[normalize-space(.)='Save']
+09:11:38 INFO  [WebUtils] - clicked on Save button
+09:11:40 INFO  [WebUtils] - Locator used : xpath=//P[.='Successfully Saved']
+09:11:40 INFO  [WebUtils] - Successfully Saved text is displayed
+09:11:43 INFO  [WebUtils] - Locator used : xpath=//H6[.='Personal Details']
+09:11:43 INFO  [WebUtils] - Personal Details text is displayed
+09:11:44 INFO  [WebUtils] - Browser is closed
+]]></system-out>
+    <system-err><![CDATA[Dec 17, 2025 9:11:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+]]></system-err>
+  </testcase>
+</testsuite>
